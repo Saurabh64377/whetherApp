@@ -37,8 +37,8 @@ const Whether = () => {
     };
 
     return (
-        <div className='container'>
-            <h2 className='text-center fw-bold text-primary'>Whether App🌤️</h2>
+        <div className='cont text-dark'>
+            <h2 className='text-center fw-bold'>Whether App🌤️</h2>
             <form onSubmit={handleSubmit} className='weather'>
                 <div className='d-flex align-items-center justify-content-center gap-1'>
                     <input
@@ -60,7 +60,7 @@ const Whether = () => {
                         </div>
                     </div>
                 ) : wdetails ? (
-                    <div className='mt-4 d-flex align-items-center justify-content-center flex-column fw-bold text-white'>
+                    <div className='mt-4 d-flex align-items-center justify-content-center flex-column fw-bold '>
                         <h3>
                             City: {wdetails.name} <span>in</span>
                         </h3>

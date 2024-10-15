@@ -1,7 +1,10 @@
-.container {
+.cont {
+  color: #fff;
   width: 100%;
   height: 100vh;
   padding-top: 50px;
+  background-repeat: no-repeat;
+  background: url(https://img.freepik.com/free-vector/horizontal-seamless-pattern-with-clouds_1284-52895.jpg?w=996&t=st=1728983718~exp=1728984318~hmac=a7c721a007d4910868a2d1ca992dcdac2639e8771c6969d8b5db3bd677069b52);
 }
 
 .weather {
@@ -10,7 +13,13 @@
   padding: 30px;
   border-radius: 10px;
   margin: 10px auto;
-  background: linear-gradient(130deg, rgb(114, 114, 231), rgb(4, 4, 235));
+  background: skyblue;
+  border: 4px solid rgb(44, 44, 235);
+  transition:  0.3s ease;
+}
+
+.weather:hover {
+  border: 4px solid rgb(85, 85, 245);
 }
 
 
